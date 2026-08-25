@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.pytest-*/
+.tmp-pytest/
+data/collection-report.json
+data/collected-chunks.json
+data/g2b-service-manifest.json
+data/g2b-service-chunks.json
+.venv/
+*.pyc
+data/raw/
+data/index/
+artifacts/
+.env
+data/embedding-cache-*.npz
+data/embedding-cache.npz
