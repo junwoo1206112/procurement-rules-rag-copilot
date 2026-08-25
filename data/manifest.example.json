@@ -1,0 +1,26 @@
+[
+  {
+    "document_id": "replace-with-stable-id",
+    "title": "문서 제목",
+    "source_url": "https://official-source.example/document.pdf",
+    "issuing_organization": "발행 기관",
+    "collected_at": "2026-08-20T00:00:00Z",
+    "document_kind": "pdf",
+    "access_status": "confirmed_public",
+    "usage_terms_checked": true,
+    "usage_basis": "저작권법 제7조 또는 발행기관의 공공저작물 이용 조건",
+    "notice_number": "선택 항목",
+    "published_at": "2026-08-01T00:00:00Z"
+  },
+  {
+    "document_id": "excluded-example",
+    "title": "색인 제외 문서",
+    "source_url": "https://official-source.example/restricted.pdf",
+    "issuing_organization": "발행 기관",
+    "collected_at": "2026-08-20T00:00:00Z",
+    "document_kind": "pdf",
+    "access_status": "restricted",
+    "usage_terms_checked": false,
+    "exclusion_reason": "접근 제한 또는 이용 조건 미확인"
+  }
+]

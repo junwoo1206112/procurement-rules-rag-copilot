@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "procurement-rag-copilot"
+version = "0.1.0"
+description = "공개 조달 문서를 위한 근거 인용형 로컬 RAG 포트폴리오"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.30,<1",
+  "pydantic>=2.9,<3",
+  "pymupdf>=1.24,<2",
+  "sentence-transformers>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9", "httpx>=0.27,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

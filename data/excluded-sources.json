@@ -1,0 +1,4 @@
+[
+  {"document_id":"excluded-g2b-rfp-terms-unverified","title":"나라장터 개별 입찰 첨부 RFP","source_url":"https://www.g2b.go.kr/","issuing_organization":"조달청","collected_at":"2026-08-20T00:00:00Z","document_kind":"pdf","access_status":"unknown","usage_terms_checked":false,"exclusion_reason":"개별 첨부파일의 재이용 조건과 개인정보 포함 여부를 문서별로 확인하지 못함"},
+  {"document_id":"excluded-private-upload","title":"사용자 업로드 제안서","source_url":"https://example.invalid/private-proposal.pdf","issuing_organization":"미확인","collected_at":"2026-08-20T00:00:00Z","document_kind":"pdf","access_status":"restricted","usage_terms_checked":false,"exclusion_reason":"접근 권한과 개인정보 포함 여부가 확인되지 않은 비공개 문서"}
+]

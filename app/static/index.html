@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Procurement RAG Copilot</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">LOCAL · CITED · EVALUATED</p>
+      <h1>조달 문서 RAG Copilot</h1>
+      <p class="subtitle">공개 입찰 문서에서 근거를 찾고, 조항·페이지 등 원문 위치와 함께 답합니다.</p>
+      <section class="notice"><strong>안내</strong> 법률·계약 판단을 대신하지 않습니다. 근거가 부족하면 답변을 보류합니다.</section>
+      <form id="question-form">
+        <label for="question">문서에 질문하기</label>
+        <textarea id="question" placeholder="예: 2026-001 공고의 제출 서류를 알려줘" required></textarea>
+        <input id="organization" placeholder="기관 필터(선택)" />
+        <input id="notice-number" placeholder="공고번호 필터(선택)" />
+        <select id="document-kind" aria-label="문서 유형 필터">
+          <option value="">문서 유형(전체)</option>
+          <option value="html">HTML 법령·공고</option>
+          <option value="pdf">PDF</option>
+          <option value="hwpx">HWPX</option>
+        </select>
+        <button type="submit">근거 찾기</button>
+      </form>
+      <section id="result" aria-live="polite" hidden>
+        <h2>답변</h2><p id="answer-status"></p><p id="answer"></p><h3>검증 가능한 출처</h3><ul id="citations"></ul>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

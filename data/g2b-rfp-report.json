@@ -1,0 +1,526 @@
+[
+  {
+    "notice_number": "R25BK00553555",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00553555-2",
+    "sha256": "b91f0ba6eb936f26068fd06693ae0a76a455f335b343dec9e15a63cb1fd5c7e5",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00553650",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553650",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553607",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553607",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553607",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553740",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553740",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553675",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553675",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00553499-1",
+    "sha256": "6bd50878e5c35074da96ae043f7cab27d05fe6020a68617e88b126d090c8e31c",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00553499",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553612",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553612",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553551",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553551",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554255",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554255",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554087",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554087",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553900",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553900",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 5,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554323",
+    "attachment": 6,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554183",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554183",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554035",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554035",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553715",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553715",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553715",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553715",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553612",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553612",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00553693-1",
+    "sha256": "ae53522208780e0c20619fab7a49993806d62164d3335f969362d01b6a95908f",
+    "status": "indexed"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00553693-2",
+    "sha256": "876e8dde268cf6e23272a16f9cd7f654a4fcfa4e1d268572ddacee10d0453cd1",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00553693",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553635",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553635",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554058",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554058",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554071",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554071",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554071",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554043",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554043",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554043",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554043",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554043-5",
+    "sha256": "89ca461c834749966db259dcb1f4c43719958648c12c68914bd0878820428aa9",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00554088",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554088",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554088-3",
+    "sha256": "45812739946dd7ca7f90010f334e9d02cac816fd8989781867f5074fc559ae61",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00554088",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553808",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553808",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553808",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553900",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00553900",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554457",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554457",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554457",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554482",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554482",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554482",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554482",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554482-5",
+    "sha256": "506a87ae5f0c8f2c73176f7ca5bf802b00fb9e6d8dea561fbf719b129e2a897d",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00554308",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554308",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 5,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554238",
+    "attachment": 6,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554284",
+    "attachment": 1,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554284",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554284",
+    "attachment": 3,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554284",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "notice_number": "R25BK00554284",
+    "attachment": 5,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554302-1",
+    "sha256": "477cef38ca58e206d1d6e4f414fb536f8cd2981e8efee79a2adbdf1446159729",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00554302",
+    "attachment": 2,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554302-3",
+    "sha256": "0b3389bff763600914bb96d7dfae04cf7119a99205b9f6e48d0373fe7f686f19",
+    "status": "indexed"
+  },
+  {
+    "notice_number": "R25BK00554302",
+    "attachment": 4,
+    "status": "excluded",
+    "reason": "ValueError"
+  },
+  {
+    "document_id": "g2b-rfp-r25bk00554602-1",
+    "sha256": "e59b6fb22318eebf792e8abfe750c387d2e13a83a5ef83fad6c4340511de15ce",
+    "status": "indexed"
+  }
+]

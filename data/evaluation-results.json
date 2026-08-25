@@ -1,0 +1,408 @@
+{
+  "dataset_version": "2026-08-20-v3",
+  "measurement_version": "v4.0",
+  "corpus_sha256": "35540f23efd8375ff2b9ad5bdade402ebd1b182eabf029faa25ed1e7e5f7509e",
+  "answer_status_mode": "deterministic",
+  "reports": {
+    "lexical_hybrid": {
+      "mode": "lexical_hybrid",
+      "question_count": 72,
+      "answerable_question_count": 69,
+      "unanswerable_question_count": 3,
+      "recall_at_5": 0.5362,
+      "mrr": 0.3365,
+      "ndcg": 0.3708,
+      "citation_precision": 0.2271,
+      "citation_recall": 0.2319,
+      "selected_evidence_recall": 0.2319,
+      "answer_status_measurement": "deterministic_evidence_contract",
+      "answer_status_counts": {
+        "grounded": 69,
+        "grounded_demo": 0,
+        "insufficient_evidence": 3
+      },
+      "answer_status_rates": {
+        "grounded": 0.9583,
+        "grounded_demo": 0.0,
+        "insufficient_evidence": 0.0417
+      },
+      "unanswerable_hold_rate": 1.0,
+      "p50_latency_ms": 123.761,
+      "p95_latency_ms": 164.516,
+      "failure_examples": [
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        },
+        {
+          "question_id": "evidence-007",
+          "question": "조달청 건축설계 용역 평가지침의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-services-2100000209631"
+        },
+        {
+          "question_id": "evidence-008",
+          "question": "조달청 건축설계자 선정을 위한 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-designer-evaluation-2100000273582"
+        }
+      ],
+      "selection_failure_examples": [
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        },
+        {
+          "question_id": "evidence-007",
+          "question": "조달청 건축설계 용역 평가지침의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-services-2100000209631"
+        }
+      ]
+    },
+    "tf_cosine": {
+      "mode": "tf_cosine",
+      "question_count": 72,
+      "answerable_question_count": 69,
+      "unanswerable_question_count": 3,
+      "recall_at_5": 0.5362,
+      "mrr": 0.3732,
+      "ndcg": 0.3903,
+      "citation_precision": 0.1981,
+      "citation_recall": 0.2029,
+      "selected_evidence_recall": 0.2029,
+      "answer_status_measurement": "deterministic_evidence_contract",
+      "answer_status_counts": {
+        "grounded": 69,
+        "grounded_demo": 0,
+        "insufficient_evidence": 3
+      },
+      "answer_status_rates": {
+        "grounded": 0.9583,
+        "grounded_demo": 0.0,
+        "insufficient_evidence": 0.0417
+      },
+      "unanswerable_hold_rate": 1.0,
+      "p50_latency_ms": 123.46,
+      "p95_latency_ms": 162.562,
+      "failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        }
+      ],
+      "selection_failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        }
+      ]
+    },
+    "hybrid": {
+      "mode": "hybrid",
+      "question_count": 72,
+      "answerable_question_count": 69,
+      "unanswerable_question_count": 3,
+      "recall_at_5": 0.7391,
+      "mrr": 0.5734,
+      "ndcg": 0.593,
+      "citation_precision": 0.2754,
+      "citation_recall": 0.2428,
+      "selected_evidence_recall": 0.2754,
+      "answer_status_measurement": "deterministic_evidence_contract",
+      "answer_status_counts": {
+        "grounded": 69,
+        "grounded_demo": 0,
+        "insufficient_evidence": 3
+      },
+      "answer_status_rates": {
+        "grounded": 0.9583,
+        "grounded_demo": 0.0,
+        "insufficient_evidence": 0.0417
+      },
+      "unanswerable_hold_rate": 1.0,
+      "p50_latency_ms": 40.543,
+      "p95_latency_ms": 44.354,
+      "failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-007",
+          "question": "조달청 건축설계 용역 평가지침의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-services-2100000209631"
+        },
+        {
+          "question_id": "evidence-008",
+          "question": "조달청 건축설계자 선정을 위한 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-designer-evaluation-2100000273582"
+        }
+      ],
+      "selection_failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        }
+      ]
+    },
+    "hybrid_rerank": {
+      "mode": "hybrid_rerank",
+      "question_count": 72,
+      "answerable_question_count": 69,
+      "unanswerable_question_count": 3,
+      "recall_at_5": 0.6377,
+      "mrr": 0.4092,
+      "ndcg": 0.4569,
+      "citation_precision": 0.2271,
+      "citation_recall": 0.2319,
+      "selected_evidence_recall": 0.2319,
+      "answer_status_measurement": "deterministic_evidence_contract",
+      "answer_status_counts": {
+        "grounded": 69,
+        "grounded_demo": 0,
+        "insufficient_evidence": 3
+      },
+      "answer_status_rates": {
+        "grounded": 0.9583,
+        "grounded_demo": 0.0,
+        "insufficient_evidence": 0.0417
+      },
+      "unanswerable_hold_rate": 1.0,
+      "p50_latency_ms": 42.11,
+      "p95_latency_ms": 49.732,
+      "failure_examples": [
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        },
+        {
+          "question_id": "evidence-007",
+          "question": "조달청 건축설계 용역 평가지침의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-services-2100000209631"
+        },
+        {
+          "question_id": "evidence-008",
+          "question": "조달청 건축설계자 선정을 위한 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-designer-evaluation-2100000273582"
+        }
+      ],
+      "selection_failure_examples": [
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        },
+        {
+          "question_id": "evidence-006",
+          "question": "조달청 건축 설계공모 운영기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-competition-2100000264852"
+        },
+        {
+          "question_id": "evidence-007",
+          "question": "조달청 건축설계 용역 평가지침의 본문 내용을 찾아줘",
+          "expected_document": "pps-design-services-2100000209631"
+        }
+      ]
+    },
+    "embedding": {
+      "mode": "embedding",
+      "question_count": 72,
+      "answerable_question_count": 69,
+      "unanswerable_question_count": 3,
+      "recall_at_5": 0.7536,
+      "mrr": 0.6679,
+      "ndcg": 0.6782,
+      "citation_precision": 0.3043,
+      "citation_recall": 0.2705,
+      "selected_evidence_recall": 0.3043,
+      "answer_status_measurement": "deterministic_evidence_contract",
+      "answer_status_counts": {
+        "grounded": 69,
+        "grounded_demo": 0,
+        "insufficient_evidence": 3
+      },
+      "answer_status_rates": {
+        "grounded": 0.9583,
+        "grounded_demo": 0.0,
+        "insufficient_evidence": 0.0417
+      },
+      "unanswerable_hold_rate": 1.0,
+      "p50_latency_ms": 134.536,
+      "p95_latency_ms": 214.835,
+      "failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-002",
+          "question": "조달등록팀 운영규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-registration-team-2100000275710"
+        },
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        }
+      ],
+      "selection_failure_examples": [
+        {
+          "question_id": "evidence-001",
+          "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-stockpile-storage-2100000274866"
+        },
+        {
+          "question_id": "evidence-002",
+          "question": "조달등록팀 운영규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-registration-team-2100000275710"
+        },
+        {
+          "question_id": "evidence-003",
+          "question": "조달청 가격조사 업무규정의 본문 내용을 찾아줘",
+          "expected_document": "pps-price-survey-2100000226962"
+        },
+        {
+          "question_id": "evidence-004",
+          "question": "조달청 건설엔지니어링사업자 사업수행능력 세부평가기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-evaluation-2100000268960"
+        },
+        {
+          "question_id": "evidence-005",
+          "question": "조달청 건설엔지니어링 종합심사낙찰제 세부심사기준의 본문 내용을 찾아줘",
+          "expected_document": "pps-engineering-review-2100000273626"
+        }
+      ]
+    }
+  }
+}

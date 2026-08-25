@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "measurement_type": "live_llm_grounding_review",
+    "dataset_version": "2026-08-20-v3",
+    "corpus_sha256": "35540f23efd8375ff2b9ad5bdade402ebd1b182eabf029faa25ed1e7e5f7509e",
+    "model": "qwen2.5:3b",
+    "executed_at": "2026-08-24T10:41:39.478033+00:00",
+    "retrieval_mode": "lexical_hybrid"
+  },
+  "summary": {
+    "question_count": 8,
+    "completed_execution_count": 8,
+    "execution_failure_count": 0,
+    "answerable_completed_count": 7,
+    "unanswerable_completed_count": 1,
+    "citation_expected_match_count": 3,
+    "citation_expected_match_rate": 0.4286,
+    "appropriate_hold_count": 1,
+    "appropriate_hold_rate": 1.0,
+    "grounded_demo_count": 4,
+    "manual_review_required_count": 6
+  },
+  "records": [
+    {
+      "question_id": "evidence-001",
+      "question": "비축물자 보관관리 규정의 본문 내용을 찾아줘",
+      "question_type": "조항 조회",
+      "answerable": true,
+      "answer_status": "grounded_demo",
+      "answer_text": null,
+      "selected_chunk_ids": [
+        "pps-stockpile-storage-2100000274866-0001"
+      ],
+      "citation_chunk_ids": [
+        "pps-stockpile-storage-2100000274866-0001"
+      ],
+      "expected_chunk_ids": [
+        "pps-stockpile-storage-2100000274866-0001"
+      ],
+      "citation_matches_expected": true,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "invalid_model_payload"
+    },
+    {
+      "question_id": "evidence-016",
+      "question": "조달청 공공주택 입찰참가자격사전심사기준의 본문 내용을 찾아줘",
+      "question_type": "참가자격",
+      "answerable": true,
+      "answer_status": "grounded_demo",
+      "answer_text": null,
+      "selected_chunk_ids": [
+        "pps-public-housing-bid-2100000279944-0003"
+      ],
+      "citation_chunk_ids": [
+        "pps-public-housing-bid-2100000279944-0003"
+      ],
+      "expected_chunk_ids": [
+        "pps-public-housing-prequalification-2100000276714-0001"
+      ],
+      "citation_matches_expected": false,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "invalid_model_payload"
+    },
+    {
+      "question_id": "evidence-031",
+      "question": "학사행정 정보시스템 유지보수의 공고 개요 내용을 찾아줘",
+      "question_type": "공고 정보",
+      "answerable": true,
+      "answer_status": "grounded",
+      "answer_text": "- 학사행정 정보시스템 유지보수 공고의 공고번호는 R25BK00553447입니다. [1]",
+      "selected_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "citation_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "expected_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "citation_matches_expected": true,
+      "hold_is_appropriate": null,
+      "manual_review_required": false,
+      "execution_status": "completed"
+    },
+    {
+      "question_id": "evidence-041",
+      "question": "학사행정 정보시스템 유지보수의 일정 내용을 찾아줘",
+      "question_type": "일정",
+      "answerable": true,
+      "answer_status": "grounded",
+      "answer_text": "- 학사행정 정보시스템 유지보수 공고가 조달청에서 한국기술교육대학교로 발행되었습니다. [1]",
+      "selected_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "citation_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "expected_chunk_ids": [
+        "g2b-service-r25bk00553447-0002"
+      ],
+      "citation_matches_expected": false,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "completed"
+    },
+    {
+      "question_id": "evidence-051",
+      "question": "학사행정 정보시스템 유지보수의 계약·평가 내용을 찾아줘",
+      "question_type": "평가기준",
+      "answerable": true,
+      "answer_status": "grounded",
+      "answer_text": "- 학사행정 정보시스템 유지보수의 계약·평가 내용이 공고되었습니다. [1]",
+      "selected_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "citation_chunk_ids": [
+        "g2b-service-r25bk00553447-0001"
+      ],
+      "expected_chunk_ids": [
+        "g2b-service-r25bk00553447-0003"
+      ],
+      "citation_matches_expected": false,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "completed"
+    },
+    {
+      "question_id": "evidence-062",
+      "question": "2025년 CCTV 통합관제센터 유지보수 용역 첨부 1의 제출서류 내용을 찾아줘",
+      "question_type": "제출서류",
+      "answerable": true,
+      "answer_status": "grounded_demo",
+      "answer_text": null,
+      "selected_chunk_ids": [
+        "g2b-service-r25bk00553499-0001"
+      ],
+      "citation_chunk_ids": [
+        "g2b-service-r25bk00553499-0001"
+      ],
+      "expected_chunk_ids": [
+        "g2b-rfp-r25bk00553499-1-0001"
+      ],
+      "citation_matches_expected": false,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "invalid_model_payload"
+    },
+    {
+      "question_id": "evidence-069",
+      "question": "학사행정 정보시스템 유지보수와 디지털서비스_엔디에스_엔디에스 지원서비스의 공고 기관을 비교해줘",
+      "question_type": "문서 비교",
+      "answerable": true,
+      "answer_status": "grounded_demo",
+      "answer_text": null,
+      "selected_chunk_ids": [
+        "g2b-service-r25bk00553504-0001",
+        "g2b-service-r25bk00553447-0001",
+        "g2b-rfp-r25bk00554602-1-0001"
+      ],
+      "citation_chunk_ids": [
+        "g2b-service-r25bk00553504-0001",
+        "g2b-service-r25bk00553447-0001",
+        "g2b-rfp-r25bk00554602-1-0001"
+      ],
+      "expected_chunk_ids": [
+        "g2b-service-r25bk00553447-0001",
+        "g2b-service-r25bk00553504-0001"
+      ],
+      "citation_matches_expected": true,
+      "hold_is_appropriate": null,
+      "manual_review_required": true,
+      "execution_status": "invalid_model_payload"
+    },
+    {
+      "question_id": "unanswerable-001",
+      "question": "초전도해파리쿠키의중력값은?",
+      "question_type": "답변 불가",
+      "answerable": false,
+      "answer_status": "insufficient_evidence",
+      "answer_text": null,
+      "selected_chunk_ids": [],
+      "citation_chunk_ids": [],
+      "expected_chunk_ids": [],
+      "citation_matches_expected": null,
+      "hold_is_appropriate": true,
+      "manual_review_required": false,
+      "execution_status": "not_called_no_evidence"
+    }
+  ]
+}
