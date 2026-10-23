@@ -1,5 +1,4 @@
 import json
-import shutil
 import sys
 
 from app.answering import AnswerExecutionTrace, citations_for
@@ -121,8 +120,17 @@ def test_live_cli_uses_separate_checkpoint_without_changing_deterministic_result
     (project_root / "app").mkdir(parents=True)
     (project_root / "data").mkdir()
     (project_root / "docs").mkdir()
-    for filename in ("collected-chunks.json", "g2b-service-chunks.json", "g2b-rfp-chunks.json", "evaluation-set.json"):
-        shutil.copy(source_root / "data" / filename, project_root / "data" / filename)
+    sample_chunk = json.loads((source_root / "data" / "g2b-rfp-chunks.json").read_text(encoding="utf-8"))[0]
+    for filename in ("collected-chunks.json", "g2b-service-chunks.json", "g2b-rfp-chunks.json"):
+        (project_root / "data" / filename).write_text(json.dumps([sample_chunk], ensure_ascii=False), encoding="utf-8")
+    monkeypatch.setattr(
+        runner,
+        "load_evaluation_set",
+        lambda _path, chunks: (
+            "test-v1",
+            [EvaluationQuestion("q-1", "제출 서류", {chunks[0].chunk_id}, chunks[0].document_id, question_type="제출서류")],
+        ),
+    )
     deterministic_path = project_root / "data" / "evaluation-results.json"
     deterministic_path.write_text('{"deterministic": true}\n', encoding="utf-8")
     monkeypatch.setattr(runner, "__file__", str(project_root / "app" / "run_evaluation.py"))
